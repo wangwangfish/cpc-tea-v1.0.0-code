@@ -13,6 +13,8 @@ import numpy as np
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(REPO, 'data', 'tea8')
+if not os.path.isdir(SRC):
+    SRC = os.path.join(REPO, '..', 'GreenTea-8-1.0.0', 'tea8')
 DST = os.path.join(REPO, 'data', 'imb2')
 RATIOS = [2, 5, 10]
 TOTAL = 1200

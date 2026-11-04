@@ -21,7 +21,11 @@ set -uo pipefail
 HERE=$(cd "$(dirname "$0")" && pwd)
 REPO=$(cd "$HERE/.." && pwd)
 PY=${PY:-python3}
-DATA=${DATA:-$REPO/data/tea8}
+if [ -d "$REPO/data/tea8" ]; then
+  DATA=${DATA:-$REPO/data/tea8}
+else
+  DATA=${DATA:-$REPO/../GreenTea-8-1.0.0/tea8}   # dataset released as a separate folder
+fi
 OUT=${OUT:-$REPO/runs_out}
 JOBS=${JOBS:-8}
 EPOCHS=${EPOCHS:-150}

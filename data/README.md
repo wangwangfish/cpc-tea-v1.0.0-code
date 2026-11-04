@@ -49,6 +49,8 @@ own loop over the files, quote the filenames.
 
 ## Where the files are
 
+The images live in a separate folder, `GreenTea-8-1.0.0/`, released as its own artefact
+next to the code repository; this directory holds only the manifest and the description.
 The 2004 images are not tracked in the git repository — 478 MB is above the 250 MB
 threshold at which *Processes* requires a DOI-minting repository, and it is also a lot to
 clone for someone who only wants the analysis scripts. They are deposited as a Zenodo

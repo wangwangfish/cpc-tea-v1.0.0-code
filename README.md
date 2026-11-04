@@ -20,17 +20,32 @@ docs/                 reproduction notes, environment, provenance, results
 
 ## Getting the data
 
-The images are 478 MB, so they are not in this repository: Processes requires datasets
-above 250 MB to sit in a repository that mints a DOI, and a half-gigabyte clone would make
-the code awkward to use. Download the Zenodo record, unpack it so that `data/tea8/train`
-and `data/tea8/val` exist, then verify:
+The release is two artefacts, kept apart on purpose:
 
-```bash
-cd <repo> && sha256sum -c data/SHA256SUMS --quiet && echo "dataset ok"
+| artefact | contents | goes to |
+|---|---|---|
+| `cpc-tea` (this repository) | code, configs, per-run results, analysis, docs | GitHub |
+| `GreenTea-8-1.0.0` | 2004 images, 478 MB, licence, SHA-256 manifest | Zenodo (DOI) |
+
+The images are not in this repository: *Processes* requires datasets above 250 MB to sit in
+a repository that mints a DOI, and a half-gigabyte clone would make the code awkward to
+use. Lay the two folders side by side and every script finds the data without being told
+where it is:
+
+```
+cpc-tea/                 this repository
+GreenTea-8-1.0.0/tea8/   the images, as they come out of the Zenodo record
 ```
 
-`data/README.md` has the composition and the licence; `data/SHA256SUMS` has all 2004
-hashes, so any copy can be checked against this tree.
+Then verify:
+
+```bash
+cd GreenTea-8-1.0.0 && sha256sum -c SHA256SUMS --quiet && echo "dataset ok"
+```
+
+The runs read `../GreenTea-8-1.0.0/tea8` when `data/tea8` is absent, and `DATA=` overrides
+either. `data/README.md` here has the composition and the licence; `data/SHA256SUMS` is the
+same manifest, so a copy can be checked from either side.
 
 ## Quick start
 
