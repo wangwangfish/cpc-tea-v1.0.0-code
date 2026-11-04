@@ -3,6 +3,8 @@
 Code, data and per-run results for the paper *Classifier corrections, not extra capacity,
 lift the weakest class when green tea training data are small* (submitted to *Processes*).
 
+The dataset is archived at https://doi.org/10.5281/zenodo.23934586 (CC BY-NC 4.0).
+
 The dataset is the eight-class green-tea set used in the paper: 1708 training and 296
 validation images, 134–294 images per class, 2.19:1 imbalance. Every number in the
 manuscript is produced by the files in this repository.
@@ -25,7 +27,7 @@ The release is two artefacts, kept apart on purpose:
 | artefact | contents | goes to |
 |---|---|---|
 | `cpc-tea` (this repository) | code, configs, per-run results, analysis, docs | GitHub |
-| `GreenTea-8-1.0.0` | 2004 images, 478 MB, licence, SHA-256 manifest | Zenodo (DOI) |
+| `GreenTea-8-1.0.0` | 2004 images, 478 MB, licence, SHA-256 manifest | Zenodo, [10.5281/zenodo.23934586](https://doi.org/10.5281/zenodo.23934586) |
 
 The images are not in this repository: *Processes* requires datasets above 250 MB to sit in
 a repository that mints a DOI, and a half-gigabyte clone would make the code awkward to

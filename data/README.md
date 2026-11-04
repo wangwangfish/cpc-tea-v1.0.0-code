@@ -54,7 +54,8 @@ next to the code repository; this directory holds only the manifest and the desc
 The 2004 images are not tracked in the git repository — 478 MB is above the 250 MB
 threshold at which *Processes* requires a DOI-minting repository, and it is also a lot to
 clone for someone who only wants the analysis scripts. They are deposited as a Zenodo
-record; `data/SHA256SUMS` in this repository is the manifest of that record, so a
+record at <https://doi.org/10.5281/zenodo.23934586>; `data/SHA256SUMS` in this repository is
+the manifest of that record, so a
 downloaded copy can be verified against the code that used it.
 
 Unpack so that `data/tea8/train/<class>/` and `data/tea8/val/<class>/` exist, then:
