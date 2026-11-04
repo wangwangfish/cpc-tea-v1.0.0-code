@@ -1,0 +1,14 @@
+{
+ "config": "r18_cos",
+ "head": "cos",
+ "optimizer": "adamw",
+ "alpha": 1.0,
+ "params_M": 11.185,
+ "seed": 123,
+ "epochs": 150,
+ "resolution": 224,
+ "best_acc": 97.3,
+ "best_epoch": 132,
+ "last_acc": 96.62,
+ "minutes": 16.1
+}

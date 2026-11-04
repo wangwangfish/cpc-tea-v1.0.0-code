@@ -1,0 +1,13 @@
+{
+ "arch": "repvit_m1_1",
+ "params_M": 7.79,
+ "lr": 0.0005,
+ "wd": 0.05,
+ "seed": 42,
+ "resolution": 224,
+ "epochs": 150,
+ "best_acc": 93.24,
+ "best_epoch": 128,
+ "final_acc": 91.55,
+ "minutes": 15.4
+}

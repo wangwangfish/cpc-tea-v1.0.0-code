@@ -1,0 +1,23 @@
+{
+ "n": 3,
+ "seeds": [
+  42,
+  123,
+  456
+ ],
+ "acc": {
+  "123": 97.3,
+  "42": 96.96,
+  "456": 97.64
+ },
+ "epoch": {
+  "123": 27,
+  "42": 21,
+  "456": 21
+ },
+ "params": 11.181,
+ "mean": 97.3,
+ "server": "244",
+ "script": "experiments/train_lpr.py --init_imagenet",
+ "protocol": "30 epochs, lr 1e-3, wd 1e-4, bs 32, res 224, cuDNN off"
+}

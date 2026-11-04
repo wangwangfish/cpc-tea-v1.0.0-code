@@ -1,0 +1,13 @@
+{
+ "config": "r18",
+ "head": "linear",
+ "optimizer": "adamw",
+ "params_M": 11.181,
+ "seed": 42,
+ "epochs": 150,
+ "resolution": 224,
+ "best_acc": 97.64,
+ "best_epoch": 144,
+ "last_acc": 96.96,
+ "minutes": 16.3
+}

@@ -1,0 +1,18 @@
+{
+ "config": "cpc",
+ "head": "linear",
+ "optimizer": "sgd",
+ "alpha": 1.0,
+ "aug_rot": false,
+ "c4": "none",
+ "c4_order": 4,
+ "op": "dc",
+ "params_M": 11.181,
+ "seed": 123,
+ "epochs": 150,
+ "resolution": 288,
+ "best_acc": 65.54,
+ "best_epoch": 58,
+ "last_acc": 61.82,
+ "minutes": 25.2
+}

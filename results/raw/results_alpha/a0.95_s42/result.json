@@ -1,0 +1,14 @@
+{
+ "config": "cpc",
+ "head": "linear",
+ "optimizer": "adamw",
+ "alpha": 0.95,
+ "params_M": 11.181,
+ "seed": 42,
+ "epochs": 150,
+ "resolution": 224,
+ "best_acc": 95.27,
+ "best_epoch": 99,
+ "last_acc": 92.91,
+ "minutes": 20.9
+}

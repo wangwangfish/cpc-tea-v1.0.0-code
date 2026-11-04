@@ -1,0 +1,22 @@
+# Versions are the ones the reported runs used, not lower bounds: a different numpy or
+# Pillow changes the decoded pixels of a JPEG by a few levels, which is enough to move a
+# 296-image accuracy by a tenth of a point.
+#
+# torch and torchvision are installed first from the wheel index that matches your driver,
+# e.g.
+#   pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu124
+# and then this file supplies the rest.
+
+torch==2.5.1
+torchvision==0.20.1
+
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.7.2
+pandas==2.3.3
+
+Pillow==12.3.0
+matplotlib==3.10.9
+
+# only needed by src/train_modern.py, the timm ceiling check in Section 10
+timm==1.0.28

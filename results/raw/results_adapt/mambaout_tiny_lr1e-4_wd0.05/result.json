@@ -1,0 +1,13 @@
+{
+ "arch": "mambaout_tiny",
+ "params_M": 24.26,
+ "lr": 0.0001,
+ "wd": 0.05,
+ "seed": 42,
+ "resolution": 224,
+ "epochs": 150,
+ "best_acc": 93.58,
+ "best_epoch": 128,
+ "final_acc": 92.23,
+ "minutes": 31.8
+}

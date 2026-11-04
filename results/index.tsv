@@ -1,0 +1,302 @@
+sweep	run	seed	config	head_variant	n_cpc_layers	n_dual_layers	params_M	epochs	best_acc	minutes
+results_adapt	convnextv2_tiny_lr1e-3_wd0.05						27.87	150	86.15	34.9
+results_adapt	convnextv2_tiny_lr1e-3_wd0.1						27.87	150	84.46	35.0
+results_adapt	convnextv2_tiny_lr1e-4_wd0.05						27.87	150	82.43	35.2
+results_adapt	convnextv2_tiny_lr1e-4_wd0.1						27.87	150	82.43	35.1
+results_adapt	convnextv2_tiny_lr5e-4_wd0.05						27.87	150	83.45	35.4
+results_adapt	convnextv2_tiny_lr5e-4_wd0.1						27.87	150	83.78	35.4
+results_adapt	davit_tiny_lr1e-3_wd0.05						27.6	150	44.59	23.9
+results_adapt	davit_tiny_lr1e-3_wd0.1						27.6	150	46.28	23.6
+results_adapt	davit_tiny_lr1e-4_wd0.05						27.6	150	87.16	23.5
+results_adapt	davit_tiny_lr1e-4_wd0.1						27.6	150	86.82	23.7
+results_adapt	davit_tiny_lr5e-4_wd0.05						27.6	150	82.77	24.0
+results_adapt	davit_tiny_lr5e-4_wd0.1						27.6	150	83.45	23.7
+results_adapt	mambaout_tiny_lr1e-3_wd0.05						24.26	150	16.89	49.6
+results_adapt	mambaout_tiny_lr1e-3_wd0.1						24.26	150	34.8	48.8
+results_adapt	mambaout_tiny_lr1e-4_wd0.05						24.26	150	93.58	31.8
+results_adapt	mambaout_tiny_lr1e-4_wd0.1						24.26	150	93.58	31.9
+results_adapt	mambaout_tiny_lr5e-4_wd0.05						24.26	150	84.46	31.4
+results_adapt	mambaout_tiny_lr5e-4_wd0.1						24.26	150	81.76	31.9
+results_adapt	repvit_m1_1_lr1e-3_wd0.05						7.79	150	94.26	16.2
+results_adapt	repvit_m1_1_lr1e-3_wd0.1						7.79	150	94.26	16.1
+results_adapt	repvit_m1_1_lr1e-4_wd0.05						7.79	150	83.45	15.8
+results_adapt	repvit_m1_1_lr1e-4_wd0.1						7.79	150	83.78	15.9
+results_adapt	repvit_m1_1_lr5e-4_wd0.05						7.79	150	93.24	15.4
+results_adapt	repvit_m1_1_lr5e-4_wd0.1						7.79	150	93.58	15.3
+results_alpha	a0.6_s123	123	cpc	linear			11.181	150	96.62	20.3
+results_alpha	a0.6_s42	42	cpc	linear			11.181	150	95.95	20.9
+results_alpha	a0.6_s456	456	cpc	linear			11.181	150	96.62	20.4
+results_alpha	a0.8_s123	123	cpc	linear			11.181	150	97.3	21.2
+results_alpha	a0.8_s42	42	cpc	linear			11.181	150	94.93	20.6
+results_alpha	a0.8_s456	456	cpc	linear			11.181	150	95.95	20.6
+results_alpha	a0.95_s123	123	cpc	linear			11.181	150	95.95	20.6
+results_alpha	a0.95_s42	42	cpc	linear			11.181	150	95.27	20.9
+results_alpha	a0.95_s456	456	cpc	linear			11.181	150	96.96	16.8
+results_awcos	r18_cos_s123	123	r18_cos	cos			11.185	150	97.3	16.1
+results_awcos	r18_cos_s42	42	r18_cos	cos			11.185	150	97.64	16.2
+results_awcos	r18_cos_s456	456	r18_cos	cos			11.185	150	96.28	16.2
+results_balance	both_s1024	1024	r18	gap	0	0	11.181	150	95.27	17.8
+results_balance	both_s123	123	r18	gap	0	0	11.181	150	94.93	22.6
+results_balance	both_s2024	2024	r18	gap	0	0	11.181	150	95.61	17.5
+results_balance	both_s42	42	r18	gap	0	0	11.181	150	94.93	22.7
+results_balance	both_s456	456	r18	gap	0	0	11.181	150	95.61	15.5
+results_balance	both_s789	789	r18	gap	0	0	11.181	150	94.93	17.9
+results_balance	sampler_s1024	1024	r18	gap	0	0	11.181	150	94.59	17.5
+results_balance	sampler_s123	123	r18	gap	0	0	11.181	150	94.93	22.5
+results_balance	sampler_s2024	2024	r18	gap	0	0	11.181	150	95.61	17.5
+results_balance	sampler_s42	42	r18	gap	0	0	11.181	150	95.27	22.6
+results_balance	sampler_s456	456	r18	gap	0	0	11.181	150	95.61	22.4
+results_balance	sampler_s789	789	r18	gap	0	0	11.181	150	95.61	17.7
+results_balance	weight_s123	123	r18	gap	0	0	11.181	150	94.59	23.7
+results_balance	weight_s42	42	r18	gap	0	0	11.181	150	95.61	23.5
+results_balance	weight_s456	456	r18	gap	0	0	11.181	150	94.59	23.5
+results_balanced	cpc_adamw_lr1e-3		cpc	linear			11.181	150	94.59	16.8
+results_balanced	cpc_adamw_lr1e-4		cpc	linear			11.181	150	95.61	16.8
+results_balanced	cpc_adamw_lr5e-4		cpc	linear			11.181	150	95.95	16.3
+results_balanced	r18_adamw_lr1e-3		r18	linear			11.181	150	95.95	16.3
+results_balanced	r18_adamw_lr1e-4		r18	linear			11.181	150	94.59	16.5
+results_balanced	r18_adamw_lr5e-4		r18	linear			11.181	150	97.64	15.8
+results_c4	c4max_s123	123	cpc	linear			11.181	150	96.96	21.9
+results_c4	c4max_s42	42	cpc	linear			11.181	150	96.96	21.8
+results_c4	c4max_s456	456	cpc	linear			11.181	150	96.28	21.9
+results_c4	c4mean_s123	123	cpc	linear			11.181	150	95.27	21.7
+results_c4	c4mean_s42	42	cpc	linear			11.181	150	94.59	22.0
+results_c4	c4mean_s456	456	cpc	linear			11.181	150	96.62	21.8
+results_confirm	cpc_s123	123	cpc	linear			11.181	150	96.62	16.3
+results_confirm	cpc_s42	42	cpc	linear			11.181	150	95.95	16.6
+results_confirm	cpc_s456	456	cpc	linear			11.181	150	97.3	16.3
+results_confirm	r18_s123	123	r18	linear			11.181	150	96.28	16.4
+results_confirm	r18_s42	42	r18	linear			11.181	150	97.64	16.3
+results_confirm	r18_s456	456	r18	linear			11.181	150	96.62	16.4
+results_cpcpos	A_conv2_s123	123	cpc	linear	4		11.181	150	93.58	16.4
+results_cpcpos	A_conv2_s42	42	cpc	linear	4		11.181	150	94.26	16.3
+results_cpcpos	A_conv2_s456	456	cpc	linear	4		11.181	150	94.93	16.2
+results_cpcpos	B_conv1_s123	123	cpc	linear	4		11.181	150	95.61	16.2
+results_cpcpos	B_conv1_s42	42	cpc	linear	4		11.181	150	93.58	16.0
+results_cpcpos	B_conv1_s456	456	cpc	linear	4		11.181	150	93.24	16.3
+results_cpcstages	C12_s1024	1024	cpc	gap	12	0	11.181	150	93.92	18.0
+results_cpcstages	C12_s123	123	cpc	linear	12		11.181	150	93.92	18.1
+results_cpcstages	C12_s2024	2024	cpc	gap	12	0	11.181	150	94.93	18.0
+results_cpcstages	C12_s42	42	cpc	linear	12		11.181	150	94.59	18.2
+results_cpcstages	C12_s456	456	cpc	linear	12		11.181	150	94.93	18.2
+results_cpcstages	C12_s789	789	cpc	gap	12	0	11.181	150	93.58	18.0
+results_cpcstages	C16_s123	123	cpc	linear	16		11.181	150	94.26	23.0
+results_cpcstages	C16_s42	42	cpc	linear	16		11.181	150	93.92	23.5
+results_cpcstages	C16_s456	456	cpc	linear	16		11.181	150	94.59	23.1
+results_dual	M1_s123	123	cpc	linear	8	4	19.438	150	94.93	20.3
+results_dual	M1_s42	42	cpc	linear	8	4	19.438	150	93.58	20.8
+results_dual	M1_s456	456	cpc	linear	8	4	19.438	150	95.27	20.7
+results_dual	M1b_s123	123	cpc	linear	8	4	19.438	150	93.58	20.2
+results_dual	M1b_s42	42	cpc	linear	8	4	19.438	150	94.93	20.4
+results_dual	M1b_s456	456	cpc	linear	8	4	19.438	150	94.59	20.2
+results_dual	M2_s123	123	cpc	linear	8	4	19.438	150	94.59	20.9
+results_dual	M2_s42	42	cpc	linear	8	4	19.438	150	94.26	20.2
+results_dual	M2_s456	456	cpc	linear	8	4	19.438	150	95.27	17.3
+results_dual	M3c_s1024	1024	cpc	gap	8	4	19.438	150	94.93	18.5
+results_dual	M3c_s123	123	cpc	linear	8	4	19.438	150	94.93	17.4
+results_dual	M3c_s2024	2024	cpc	gap	8	4	19.438	150	94.93	18.5
+results_dual	M3c_s42	42	cpc	linear	8	4	19.438	150	95.27	17.5
+results_dual	M3c_s456	456	cpc	linear	8	4	19.438	150	94.59	17.2
+results_dual	M3c_s789	789	cpc	gap	8	4	19.438	150	92.91	18.6
+results_dual2	M4m_s1024	1024	cpc	gap	8	4	19.438	150	93.58	18.8
+results_dual2	M4m_s123	123	cpc	linear	8	4	19.438	150	95.61	18.4
+results_dual2	M4m_s2024	2024	cpc	gap	8	4	19.438	150	94.93	17.3
+results_dual2	M4m_s42	42	cpc	linear	8	4	19.438	150	94.59	18.4
+results_dual2	M4m_s456	456	cpc	linear	8	4	19.438	150	94.59	18.1
+results_dual2	M4m_s789	789	cpc	gap	8	4	19.438	150	93.24	18.6
+results_dual2	M4s_s123	123	cpc	linear	8	4	19.438	150	96.62	17.8
+results_dual2	M4s_s42	42	cpc	linear	8	4	19.438	150	94.59	18.2
+results_dual2	M4s_s456	456	cpc	linear	8	4	19.438	150	93.24	17.9
+results_ft244	ft_s123	123	r18	gap	0	0	11.181	30	97.3	3.2
+results_ft244	ft_s42	42	r18	gap	0	0	11.181	30	96.96	3.2
+results_ft244	ft_s456	456	r18	gap	0	0	11.181	30	97.64	3.2
+results_head	gem_s1024	1024	r18	gem	0	0	11.181	150	95.27	18.0
+results_head	gem_s123	123	r18	gem	0	0	11.181	150	92.91	25.5
+results_head	gem_s2024	2024	r18	gem	0	0	11.181	150	93.24	17.9
+results_head	gem_s42	42	r18	gem	0	0	11.181	150	94.93	33.7
+results_head	gem_s456	456	r18	gem	0	0	11.181	150	92.91	25.5
+results_head	gem_s789	789	r18	gem	0	0	11.181	150	94.26	18.1
+results_head	ms_gem_s1024	1024	r18	ms_gem	0	0	11.183	150	92.91	18.0
+results_head	ms_gem_s123	123	r18	ms_gem	0	0	11.183	150	93.24	25.6
+results_head	ms_gem_s2024	2024	r18	ms_gem	0	0	11.183	150	91.89	18.0
+results_head	ms_gem_s42	42	r18	ms_gem	0	0	11.183	150	91.89	25.5
+results_head	ms_gem_s456	456	r18	ms_gem	0	0	11.183	150	91.22	16.8
+results_head	ms_gem_s789	789	r18	ms_gem	0	0	11.183	150	92.91	18.0
+results_head	ms_s1024	1024	r18	ms	0	0	11.183	150	94.26	17.7
+results_head	ms_s123	123	r18	ms	0	0	11.183	150	93.24	25.4
+results_head	ms_s2024	2024	r18	ms	0	0	11.183	150	92.91	17.8
+results_head	ms_s42	42	r18	ms	0	0	11.183	150	94.26	25.3
+results_head	ms_s456	456	r18	ms	0	0	11.183	150	94.59	25.2
+results_head	ms_s789	789	r18	ms	0	0	11.183	150	92.91	18.0
+results_imb	base_r10_s123	123	r18	gap	0	0	11.181	150	88.51	20.7
+results_imb	base_r10_s42	42	r18	gap	0	0	11.181	150	89.19	21.1
+results_imb	base_r10_s456	456	r18	gap	0	0	11.181	150	88.18	12.4
+results_imb	base_r2_s123	123	r18	gap	0	0	11.181	150	94.93	24.5
+results_imb	base_r2_s42	42	r18	gap	0	0	11.181	150	94.93	24.6
+results_imb	base_r2_s456	456	r18	gap	0	0	11.181	150	93.58	24.3
+results_imb	base_r5_s123	123	r18	gap	0	0	11.181	150	89.53	21.2
+results_imb	base_r5_s42	42	r18	gap	0	0	11.181	150	91.22	22.7
+results_imb	base_r5_s456	456	r18	gap	0	0	11.181	150	89.53	21.1
+results_imb	pph_r10_s123	123	r18	pph	0	0	11.181	150	87.84	21.1
+results_imb	pph_r10_s42	42	r18	pph	0	0	11.181	150	89.19	20.6
+results_imb	pph_r10_s456	456	r18	pph	0	0	11.181	150	88.18	12.6
+results_imb	pph_r2_s123	123	r18	pph	0	0	11.181	150	95.27	25.2
+results_imb	pph_r2_s42	42	r18	pph	0	0	11.181	150	96.28	24.9
+results_imb	pph_r2_s456	456	r18	pph	0	0	11.181	150	94.59	25.0
+results_imb	pph_r5_s123	123	r18	pph	0	0	11.181	150	88.85	21.3
+results_imb	pph_r5_s42	42	r18	pph	0	0	11.181	150	90.54	23.3
+results_imb	pph_r5_s456	456	r18	pph	0	0	11.181	150	90.88	21.2
+results_imb2	base_r10_s123	123	r18	gap	0	0	11.181	150	88.18	19.2
+results_imb2	base_r10_s42	42	r18	gap	0	0	11.181	150	89.53	19.3
+results_imb2	base_r10_s456	456	r18	gap	0	0	11.181	150	89.53	11.9
+results_imb2	base_r2_s123	123	r18	gap	0	0	11.181	150	90.54	18.8
+results_imb2	base_r2_s42	42	r18	gap	0	0	11.181	150	91.22	19.0
+results_imb2	base_r2_s456	456	r18	gap	0	0	11.181	150	90.2	18.7
+results_imb2	base_r5_s123	123	r18	gap	0	0	11.181	150	93.58	19.5
+results_imb2	base_r5_s42	42	r18	gap	0	0	11.181	150	91.89	18.9
+results_imb2	base_r5_s456	456	r18	gap	0	0	11.181	150	92.23	19.4
+results_imb2	pph_r10_s123	123	r18	pph	0	0	11.181	150	88.85	19.5
+results_imb2	pph_r10_s42	42	r18	pph	0	0	11.181	150	89.86	19.4
+results_imb2	pph_r10_s456	456	r18	pph	0	0	11.181	150	88.18	12.0
+results_imb2	pph_r2_s123	123	r18	pph	0	0	11.181	150	91.22	19.0
+results_imb2	pph_r2_s42	42	r18	pph	0	0	11.181	150	91.22	18.9
+results_imb2	pph_r2_s456	456	r18	pph	0	0	11.181	150	90.2	18.7
+results_imb2	pph_r5_s123	123	r18	pph	0	0	11.181	150	91.22	19.7
+results_imb2	pph_r5_s42	42	r18	pph	0	0	11.181	150	94.26	19.1
+results_imb2	pph_r5_s456	456	r18	pph	0	0	11.181	150	93.24	19.8
+results_mild	C0_v1_k0_l0.0_nodno_s1024	1024	cpc	gap	8	0	11.181	150	93.58	18.2
+results_mild	C0_v1_k0_l0.0_nodno_s123	123	cpc	linear			11.181	150	94.59	20.5
+results_mild	C0_v1_k0_l0.0_nodno_s2024	2024	cpc	gap	8	0	11.181	150	95.27	18.1
+results_mild	C0_v1_k0_l0.0_nodno_s42	42	cpc	linear			11.181	150	94.93	20.6
+results_mild	C0_v1_k0_l0.0_nodno_s456	456	cpc	linear			11.181	150	96.28	19.8
+results_mild	C0_v1_k0_l0.0_nodno_s789	789	cpc	gap	8	0	11.181	150	94.26	17.9
+results_mild	C1_soft_k0.01_l0.0_nodno_s123	123	cpc	linear			11.181	150	94.93	19.9
+results_mild	C1_soft_k0.01_l0.0_nodno_s42	42	cpc	linear			11.181	150	94.93	20.8
+results_mild	C1_soft_k0.01_l0.0_nodno_s456	456	cpc	linear			11.181	150	94.59	20.0
+results_mild	C1_soft_k0.05_l0.0_nodno_s123	123	cpc	linear			11.181	150	95.27	20.0
+results_mild	C1_soft_k0.05_l0.0_nodno_s42	42	cpc	linear			11.181	150	94.26	20.0
+results_mild	C1_soft_k0.05_l0.0_nodno_s456	456	cpc	linear			11.181	150	95.27	22.6
+results_mild	C2_mild_k0_l0.1_nodno_s123	123	cpc	linear			11.181	150	94.26	22.8
+results_mild	C2_mild_k0_l0.1_nodno_s42	42	cpc	linear			11.181	150	95.61	22.7
+results_mild	C2_mild_k0_l0.1_nodno_s456	456	cpc	linear			11.181	150	94.93	22.8
+results_mild	C2_mild_k0_l0.3_nodno_s123	123	cpc	linear			11.181	150	95.27	22.3
+results_mild	C2_mild_k0_l0.3_nodno_s42	42	cpc	linear			11.181	150	93.92	22.2
+results_mild	C2_mild_k0_l0.3_nodno_s456	456	cpc	linear			11.181	150	94.26	22.5
+results_mild	C3_v1_k0_l0.0_nodyes_s123	123	cpc	linear			11.181	150	94.93	16.0
+results_mild	C3_v1_k0_l0.0_nodyes_s42	42	cpc	linear			11.181	150	94.26	23.1
+results_mild	C3_v1_k0_l0.0_nodyes_s456	456	cpc	linear			11.181	150	94.59	16.0
+results_paper	cpc_adamw_s123	123	cpc	linear	8	0	11.181	150	95.95	24.7
+results_paper	cpc_adamw_s42	42	cpc	linear	8	0	11.181	150	96.96	24.9
+results_paper	cpc_adamw_s456	456	cpc	linear	8	0	11.181	150	97.64	25.0
+results_paper	cpc_sgd_s1024	1024	cpc	linear	8	0	11.181	150	95.27	20.0
+results_paper	cpc_sgd_s2024	2024	cpc	linear	8	0	11.181	150	94.59	24.4
+results_paper	cpc_sgd_s789	789	cpc	linear	8	0	11.181	150	94.26	19.9
+results_paper	r18_sgd_s1024	1024	r18	linear	0	0	11.181	150	94.59	21.7
+results_paper	r18_sgd_s123	123	r18	linear	0	0	11.181	150	93.92	21.9
+results_paper	r18_sgd_s2024	2024	r18	linear	0	0	11.181	150	94.59	22.2
+results_paper	r18_sgd_s42	42	r18	linear	0	0	11.181	150	93.92	21.2
+results_paper	r18_sgd_s456	456	r18	linear	0	0	11.181	150	95.27	21.7
+results_paper	r18_sgd_s789	789	r18	linear	0	0	11.181	150	94.93	21.9
+results_power	cpc_s123	123	cpc	linear	8	0	11.181	150	94.59	21.4
+results_power	cpc_s13	13	cpc	linear	8	0	11.181	150	93.92	21.4
+results_power	cpc_s21	21	cpc	linear	8	0	11.181	150	94.93	21.7
+results_power	cpc_s33	33	cpc	linear	8	0	11.181	150	95.27	21.2
+results_power	cpc_s42	42	cpc	linear	8	0	11.181	150	94.93	22.0
+results_power	cpc_s456	456	cpc	linear	8	0	11.181	150	96.28	21.3
+results_power	cpc_s55	55	cpc	linear	8	0	11.181	150	94.59	21.3
+results_power	cpc_s7	7	cpc	linear	8	0	11.181	150	93.24	21.2
+results_power	cpc_s89	89	cpc	linear	8	0	11.181	150	95.61	18.8
+results_power	r18_s13	13	r18	linear	0	0	11.181	150	94.59	18.8
+results_power	r18_s21	21	r18	linear	0	0	11.181	150	94.59	18.5
+results_power	r18_s33	33	r18	linear	0	0	11.181	150	94.59	18.2
+results_power	r18_s55	55	r18	linear	0	0	11.181	150	94.93	18.3
+results_power	r18_s7	7	r18	linear	0	0	11.181	150	94.26	18.3
+results_power	r18_s89	89	r18	linear	0	0	11.181	150	94.93	18.7
+results_pph	pph_gem_s123	123	r18	pph_gem	0	0	11.181	150	93.24	25.4
+results_pph	pph_gem_s42	42	r18	pph_gem	0	0	11.181	150	94.59	25.3
+results_pph	pph_gem_s456	456	r18	pph_gem	0	0	11.181	150	94.26	15.8
+results_pph	pph_s1024	1024	r18	pph	0	0	11.181	150	94.93	25.1
+results_pph	pph_s123	123	r18	pph	0	0	11.181	150	95.27	25.4
+results_pph	pph_s13	13	r18	pph	0	0	11.181	150	94.93	25.0
+results_pph	pph_s2024	2024	r18	pph	0	0	11.181	150	95.61	25.4
+results_pph	pph_s21	21	r18	pph	0	0	11.181	150	95.95	25.7
+results_pph	pph_s33	33	r18	pph	0	0	11.181	150	96.28	25.4
+results_pph	pph_s42	42	r18	pph	0	0	11.181	150	96.28	25.2
+results_pph	pph_s456	456	r18	pph	0	0	11.181	150	94.59	25.7
+results_pph	pph_s55	55	r18	pph	0	0	11.181	150	94.93	25.1
+results_pph	pph_s7	7	r18	pph	0	0	11.181	150	95.61	25.1
+results_pph	pph_s789	789	r18	pph	0	0	11.181	150	94.93	25.4
+results_pph	pph_s89	89	r18	pph	0	0	11.181	150	96.28	24.9
+results_pph	pph_sampler_s1024	1024	r18	pph	0	0	11.181	150	96.62	15.9
+results_pph	pph_sampler_s123	123	r18	pph	0	0	11.181	150	96.62	24.3
+results_pph	pph_sampler_s2024	2024	r18	pph	0	0	11.181	150	94.93	15.8
+results_pph	pph_sampler_s42	42	r18	pph	0	0	11.181	150	95.61	25.2
+results_pph	pph_sampler_s456	456	r18	pph	0	0	11.181	150	95.95	23.8
+results_pph	pph_sampler_s789	789	r18	pph	0	0	11.181	150	95.95	23.7
+results_quad	cos0_s1024	1024	r18	cos0	0	0	11.181	150	95.27	29.1
+results_quad	cos0_s123	123	r18	cos0	0	0	11.181	150	94.93	29.4
+results_quad	cos0_s2024	2024	r18	cos0	0	0	11.181	150	93.24	27.8
+results_quad	cos0_s42	42	r18	cos0	0	0	11.181	150	94.93	28.7
+results_quad	cos0_s456	456	r18	cos0	0	0	11.181	150	95.61	28.9
+results_quad	cos0_s789	789	r18	cos0	0	0	11.181	150	94.59	29.1
+results_quad	lin0_s1024	1024	r18	lin0	0	0	11.181	150	93.92	16.2
+results_quad	lin0_s123	123	r18	lin0	0	0	11.181	150	94.26	25.9
+results_quad	lin0_s2024	2024	r18	lin0	0	0	11.181	150	94.26	16.2
+results_quad	lin0_s42	42	r18	lin0	0	0	11.181	150	94.26	28.1
+results_quad	lin0_s456	456	r18	lin0	0	0	11.181	150	94.26	25.8
+results_quad	lin0_s789	789	r18	lin0	0	0	11.181	150	93.92	16.4
+results_quad	linp_s1024	1024	r18	linp	0	0	11.181	150	94.59	16.2
+results_quad	linp_s123	123	r18	linp	0	0	11.181	150	96.28	25.8
+results_quad	linp_s2024	2024	r18	linp	0	0	11.181	150	95.27	16.1
+results_quad	linp_s42	42	r18	linp	0	0	11.181	150	95.61	28.1
+results_quad	linp_s456	456	r18	linp	0	0	11.181	150	94.59	25.2
+results_quad	linp_s789	789	r18	linp	0	0	11.181	150	93.58	16.4
+results_recipe	mix_s123	123	r18	linear	0	0	11.181	150	92.23	28.8
+results_recipe	mix_s42	42	r18	linear	0	0	11.181	150	91.22	29.7
+results_recipe	mix_s456	456	r18	linear	0	0	11.181	150	91.89	29.3
+results_recipe	ra_mix_s123	123	r18	linear	0	0	11.181	150	89.19	29.1
+results_recipe	ra_mix_s42	42	r18	linear	0	0	11.181	150	89.86	29.3
+results_recipe	ra_mix_s456	456	r18	linear	0	0	11.181	150	89.53	45.6
+results_recipe	ra_s123	123	r18	linear	0	0	11.181	150	92.91	19.2
+results_recipe	ra_s42	42	r18	linear	0	0	11.181	150	91.22	19.3
+results_recipe	ra_s456	456	r18	linear	0	0	11.181	150	92.91	19.3
+results_sgdcheck	convnextv2_tiny						27.87	150	79.05	46.1
+results_sgdcheck	davit_tiny						27.6	150	79.73	24.1
+results_sgdcheck	mambaout_tiny						24.26	150	71.28	43.6
+results_sgdcheck	repvit_m1_1						7.79	150	90.2	22.4
+results_v3	dc_224_adamw_s123	123	cpc	linear			11.181	150	90.88	17.2
+results_v3	dc_224_adamw_s42	42	cpc	linear			11.181	150	77.7	17.2
+results_v3	dc_224_adamw_s456	456	cpc	linear			11.181	150	85.47	17.5
+results_v3	dc_224_sgd_s123	123	cpc	linear			11.181	150	89.53	17.9
+results_v3	dc_224_sgd_s42	42	cpc	linear			11.181	150	67.91	17.8
+results_v3	dc_224_sgd_s456	456	cpc	linear			11.181	150	75.68	17.8
+results_v3	dc_288_sgd_s123	123	cpc	linear			11.181	150	65.54	25.2
+results_v3	dc_288_sgd_s42	42	cpc	linear			11.181	150	44.26	25.7
+results_v3	dc_288_sgd_s456	456	cpc	linear			11.181	150	61.15	25.3
+results_v3	lcn_224_sgd_s123	123	cpc	linear			11.181	150	45.61	18.6
+results_v3	lcn_224_sgd_s42	42	cpc	linear			11.181	150	38.18	18.5
+results_v3	lcn_224_sgd_s456	456	cpc	linear			11.181	150	47.97	18.4
+results_width	w0.5_s1024	1024	r18	gap	0	0	2.801	150	91.89	24.6
+results_width	w0.5_s123	123	r18	gap	0	0	2.801	150	90.88	26.1
+results_width	w0.5_s13	13	r18	gap	0	0	2.801	150	91.55	25.3
+results_width	w0.5_s2024	2024	r18	gap	0	0	2.801	150	93.58	25.7
+results_width	w0.5_s21	21	r18	gap	0	0	2.801	150	92.91	18.6
+results_width	w0.5_s33	33	r18	gap	0	0	2.801	150	91.89	18.6
+results_width	w0.5_s42	42	r18	gap	0	0	2.801	150	93.24	26.1
+results_width	w0.5_s456	456	r18	gap	0	0	2.801	150	93.24	26.0
+results_width	w0.5_s55	55	r18	gap	0	0	2.801	150	94.59	18.7
+results_width	w0.5_s7	7	r18	gap	0	0	2.801	150	92.57	25.7
+results_width	w0.5_s789	789	r18	gap	0	0	2.801	150	92.23	24.8
+results_width	w0.5_s89	89	r18	gap	0	0	2.801	150	92.91	18.6
+results_width	w2.0_s1024	1024	r18	gap	0	0	44.676	150	94.93	34.6
+results_width	w2.0_s123	123	r18	gap	0	0	44.676	150	93.58	34.0
+results_width	w2.0_s13	13	r18	gap	0	0	44.676	150	95.61	34.3
+results_width	w2.0_s2024	2024	r18	gap	0	0	44.676	150	94.59	34.0
+results_width	w2.0_s21	21	r18	gap	0	0	44.676	150	93.92	33.7
+results_width	w2.0_s33	33	r18	gap	0	0	44.676	150	93.92	33.5
+results_width	w2.0_s42	42	r18	gap	0	0	44.676	150	94.93	34.1
+results_width	w2.0_s456	456	r18	gap	0	0	44.676	150	94.59	34.2
+results_width	w2.0_s55	55	r18	gap	0	0	44.676	150	93.92	33.8
+results_width	w2.0_s7	7	r18	gap	0	0	44.676	150	93.58	34.7
+results_width	w2.0_s789	789	r18	gap	0	0	44.676	150	93.58	34.7
+results_width	w2.0_s89	89	r18	gap	0	0	44.676	150	93.92	34.3

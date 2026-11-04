@@ -1,0 +1,10 @@
+# Line endings are preserved exactly as the artefacts were produced, not normalised.
+#
+# src/train_lpr.py and src/train_modern.py were CRLF files on the machine that ran the
+# experiments, and docs/PROVENANCE.md quotes the md5 of that byte stream (ffd33fc7...).
+# Letting git rewrite them to LF would change the checksum of the file behind every
+# reported number, which is exactly the link this release exists to make checkable.
+* -text
+
+*.sh text eol=lf
+*.md text eol=lf

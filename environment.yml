@@ -1,0 +1,20 @@
+# Conda equivalent of requirements.txt, for the CUDA 12.4 build the paper used.
+#   conda env create -f environment.yml
+name: cpc
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10.20
+  - pip
+  - numpy=2.2.6
+  - scipy=1.15.3
+  - scikit-learn=1.7.2
+  - pandas=2.3.3
+  - pillow=12.3.0
+  - matplotlib=3.10.9
+  - pip:
+      - torch==2.5.1
+      - torchvision==0.20.1
+      - timm==1.0.28

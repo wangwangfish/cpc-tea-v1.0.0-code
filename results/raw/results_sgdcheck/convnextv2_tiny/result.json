@@ -1,0 +1,14 @@
+{
+ "arch": "convnextv2_tiny",
+ "optimizer": "sgd",
+ "params_M": 27.87,
+ "lr": 0.01,
+ "wd": 0.0001,
+ "seed": 42,
+ "resolution": 224,
+ "epochs": 150,
+ "best_acc": 79.05,
+ "best_epoch": 122,
+ "final_acc": 78.04,
+ "minutes": 46.1
+}

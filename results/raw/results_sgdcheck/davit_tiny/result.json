@@ -1,0 +1,14 @@
+{
+ "arch": "davit_tiny",
+ "optimizer": "sgd",
+ "params_M": 27.6,
+ "lr": 0.01,
+ "wd": 0.0001,
+ "seed": 42,
+ "resolution": 224,
+ "epochs": 150,
+ "best_acc": 79.73,
+ "best_epoch": 130,
+ "final_acc": 78.38,
+ "minutes": 24.1
+}

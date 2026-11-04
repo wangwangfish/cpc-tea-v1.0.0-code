@@ -1,0 +1,30 @@
+# runs_out/ is where a rerun writes. The archive in results/ is never a target.
+runs_out/
+*.log
+
+# python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# model weights: reproducible from src/ and data/, 25 GB otherwise
+*.pth
+*.pt
+*.ckpt
+
+# the imbalance ladder is symlinks into data/tea8, rebuilt by runs/build_imb_subsets.py
+data/imb2/
+
+# The 2004 images are 478 MB. Processes requires datasets above 250 MB to be deposited in
+# a repository that mints a DOI (Instructions for Authors, "Supplementary Materials, Data
+# Deposit"), and a half-gigabyte clone would also make the code awkward to use. The images
+# therefore ship as a Zenodo record, listed in data/README.md and in the data availability
+# statement of the paper; data/SHA256SUMS lets any copy be verified against this tree.
+data/tea8/

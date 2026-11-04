@@ -1,0 +1,13 @@
+{
+ "arch": "davit_tiny",
+ "params_M": 27.6,
+ "lr": 0.001,
+ "wd": 0.05,
+ "seed": 42,
+ "resolution": 224,
+ "epochs": 150,
+ "best_acc": 44.59,
+ "best_epoch": 148,
+ "final_acc": 44.26,
+ "minutes": 23.9
+}
