@@ -16,7 +16,7 @@ is identifiable.
 ## What this covers
 
 `data/tea8/` only. The code in `src/`, `runs/` and `analysis/` is MIT-licensed; see
-`LICENSE`. The two licences are separate on purpose: an MIT grant over the code does not
+`../LICENSE`. The two licences are separate on purpose: an MIT grant over the code does not
 extend to the photographs, and a non-commercial grant over the photographs does not
 restrict the code.
 

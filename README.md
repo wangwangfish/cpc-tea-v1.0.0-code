@@ -92,7 +92,7 @@ which convention applies to which table.
 
 ## Licence and citation
 
-Code: MIT (`LICENSE`). Dataset: CC BY-NC 4.0 (`LICENSE-DATA`), non-commercial research
+Code: MIT (`LICENSE`). Dataset: CC BY-NC 4.0 (`docs/LICENSE-DATA.md`), non-commercial research
 and teaching. The two licences are separate: the MIT grant over the code does not extend
 to the photographs.
 

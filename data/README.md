@@ -78,7 +78,7 @@ copy fails before a sweep starts rather than after an hour of training.
 ## Provenance and licence
 
 Collected by the authors from a single production line; the images are of loose leaf, no
-people, no location metadata. Released under CC BY-NC 4.0 (`../LICENSE-DATA`): research
+people, no location metadata. Released under CC BY-NC 4.0 (`../docs/LICENSE-DATA.md`): research
 and teaching use, no commercial redistribution. If you use it, cite the paper
 (`../CITATION.cff`) — the dataset is not a separate publication, so there is no dataset DOI
 of its own; the Zenodo record for this release carries one for the package as a whole.
