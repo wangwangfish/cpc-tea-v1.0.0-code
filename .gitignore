@@ -1,5 +1,6 @@
 # runs_out/ is where a rerun writes. The archive in results/ is never a target.
 runs_out/
+dist/
 *.log
 
 # python
