@@ -1,4 +1,4 @@
-# Cosine-prototype head for small imbalanced green-tea grading
+# Classifier Corrections and Not Extra Capacity Lift the Weakest Class When Green Tea Training Data Are Small
 
 Code, per-run results and analysis for the paper *Classifier corrections, not extra capacity,
 lift the weakest class when green tea training data are small* (submitted to *Processes*).
